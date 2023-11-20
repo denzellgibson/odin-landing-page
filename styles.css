@@ -1,0 +1,41 @@
+/* Colors and font styles */
+
+.header, .footer, .main-title {
+    background-color: #1f2937;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-text {
+    font: 18px; 
+    color:#e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.info-container {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.testimonial-container {
+    background-color: #e5e7eb;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-style: italic;
+}
