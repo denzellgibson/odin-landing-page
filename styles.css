@@ -22,6 +22,7 @@ ul {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 button {
@@ -42,4 +43,30 @@ button {
 .testimonial-quote {
     font-size: 36px;
     font-style: italic;
+}
+
+/* Flexbox layout and formatting */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 8px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-right: 8px;
 }
