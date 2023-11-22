@@ -61,7 +61,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, .footer, .main-title {
+.header, .footer, .hero {
     background-color: #1f2937;
 }
 
@@ -69,13 +69,13 @@ ul {
     color: gray;
 }
 
-.main-text {
+.hero-maintext {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.sub-text {
+.hero-subtext {
     font: 18px; 
     color:#e5e7eb;
 }
@@ -106,78 +106,76 @@ button {
     font-style: italic;
 }
 
+/* ------------------------------------------------------- */
 
 /* Flexbox layout and formatting */
 
 body {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: space-between;
 }
 
-div, img {
-    border: white;
-    border-style: solid;
+.page-margin {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.margin-container {
-    margin-left: 10%;
-    margin-right: 10%;
+.page-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.padding-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.header-container {
+.dflex {
     display: flex;
-    flex: 1;
+}
+
+.jcsb { /* Justify-Content: Space Between */
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
-.stack-container {
-    display: flex;
+.jcse {
+    justify-content: space-evenly;
+}
+
+.aicenter { 
+    align-items: center;
+}
+
+.flexcol {
     flex-direction: column;
-    align-items: start;
-    gap: 10px;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    margin-left: 8px;
 }
 
 ul {
     display: flex;
-    list-style-type: none;
-    gap: 16px;
-    margin-right: 8px;
+    gap: 12px;
 }
 
-.main-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-margin {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-.main-container {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
+.hero-container {
+    gap: 12px;
 }
 
-.main-image {
-    height: 250px;
-    width: 550px;
+.hero-image {
+    height: 200px;
+    width: 150%;
+}
+
+.hero-left {
+    flex-wrap: wrap;
+}
+
+.stack-container {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
 }
