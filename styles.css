@@ -54,6 +54,13 @@ table {
 
 /* Colors and font styles */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header, .footer, .main-title {
     background-color: #1f2937;
 }
