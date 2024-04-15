@@ -59,6 +59,9 @@ table {
 
 body {
     font-family: 'Roboto', sans-serif;
+    border: solid;
+    border-width: thick;
+    border-color: green;
 }
 
 .header {
@@ -80,25 +83,27 @@ body {
 
 body {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .linklist {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 25px;
 }
 
 .mc1 {
     display: flex;
     
+}
+
+.mc1-image {
+    width: 128px;
+    height: 128px;
 }
