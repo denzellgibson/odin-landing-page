@@ -69,7 +69,8 @@ body {
     border-width: thick;
     border-color: red;
     background-color: #1F2937;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header-logo {
@@ -88,6 +89,8 @@ body {
     border: solid;
     border-width: thick;
     border-color: aqua;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .text-heading {
@@ -136,9 +139,13 @@ body {
     color: #1F2937;
 }
 
+.info-box {
+    border: solid;
+}
+
 .info-item {
-    /* border: solid;
-    border-color: red; */
+    border: solid;
+    border-color: red;
 }
 
 .info-item-image {
@@ -160,6 +167,7 @@ body {
 
 .header {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
@@ -176,22 +184,28 @@ body {
     justify-content: center;
 }
 
+.mc1-box {
+    display: flex;
+    justify-content: center;
+}
+
 .body-width {
     display: flex;
     justify-content: space-between;
-    width: 1100px;
+    width: 950px;
 }
 
 .mc1-textcontent {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding-right: 25px;
+    /* padding-right: 50px; */
 }
 
 .mc1-image {
-    width: 900px;
+    width: 450px;
     height: 200px;
 }
 
@@ -207,6 +221,7 @@ body {
 
 .mc2-box {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     gap: 50px;
@@ -214,18 +229,24 @@ body {
 
 .info-box {
     display: flex;
-    justify-content: center;
+    flex: 1;
     gap: 45px;
 }
 
 .info-item {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     width: 145px;
 }
 
 .info-item-image {
     width: 137px;
     height: 137px;
+}
+
+.info-item-subtext {
+    text-align: center;
 }
