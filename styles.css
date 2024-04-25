@@ -154,6 +154,35 @@ body {
     padding-right: 100px;
 }
 
+.action-box-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.action-box {
+    background-color: #3882f6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 7px;
+}
+
+.action-heading-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+}
+
+.action-button {
+    border: solid;
+    border-color: #F9FAF8;
+}
+
 /* ------------------------------------------------------- */
 
 /* Flexbox layout and formatting */
@@ -280,5 +309,30 @@ img {
 
 .quote-attribute {
     align-self: flex-end;
+}
+
+.mc4 {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box-background {
+    display: flex;
+    flex: 1;
+}
+
+.action-box {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.action-textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
