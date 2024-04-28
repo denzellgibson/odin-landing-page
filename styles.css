@@ -282,7 +282,7 @@ img {
     width: 145px;
 }
 
-.info-item-image {
+.info-item-image{
     width: 137px;
     height: 137px;
 }
@@ -335,4 +335,3 @@ img {
     flex-direction: column;
     gap: 5px;
 }
-
