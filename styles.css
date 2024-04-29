@@ -183,6 +183,12 @@ body {
     border-color: #F9FAF8;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+}
+
 /* ------------------------------------------------------- */
 
 /* Flexbox layout and formatting */
@@ -334,4 +340,14 @@ img {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.body-width:has(.footer-text) {
+    justify-content: center;
 }
